@@ -1,0 +1,35 @@
+
+.cover-bg{
+    width:100%;
+    margin: auto;
+    color:#fff;
+    background-image: url('../imgs/carpenter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+}
+.cover-bg h1, .cover-bg h4{
+    border-radius: 5px;
+    background-color: black;
+    padding:10px;
+    color:#fff;
+}
+.content{color: aliceblue;}
+@media only screen and  (min-width:765px){
+    .cover-bg h1, .cover-bg h4{
+        border-radius: 5px;
+        background-color: black;
+        padding:10px;
+        color:#fff;
+        width:50%;
+    }
+    .content{
+        width:60%!important;
+        text-align: justify;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 1px aqua;
+        color: black !important;;
+    }
+}

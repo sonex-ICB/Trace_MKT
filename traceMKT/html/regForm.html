@@ -1,0 +1,36 @@
+
+<style>
+    .form-control{
+        background-color: transparent;
+        border:.5px solid gray;
+        color: aliceblue !important;;
+    }
+    .form-control:focus{
+        background-color: transparent;
+    }
+    @media only screen and (min-width:600px) {
+        .regForm{
+            width:45%;
+        }
+    }
+</style>
+<div class='bg-succes p-3 w-3 regForm'>
+    <div id="err"></div>
+    <form>
+        <div class="form-group p-2">
+            <label class="text-white">Full Name</label>
+            <input type='text'class="form-control" id="fname" placeholder="E.g Mary Cruz" autofocus autocomplete>
+        </div>
+        <div class="form-group p-2">
+            <label class="text-white">Email Address (Valid)</label>
+            <input type='email'class="form-control" id="email" placeholder="E.g someone@me.com">
+        </div>
+        <div class="form-group p-2">
+            <label class="text-white">Phone</label>
+            <input type='number'class="form-control" id="phone" placeholder="E.g 09012345678">
+        </div>
+        <div class="form-group mt-3 p-2">
+            <button type="button" class="btn btn-primary" id="btn"> Become a member</button>
+        </div>
+    </form>
+</div>

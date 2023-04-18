@@ -1,0 +1,45 @@
+.article{
+    margin:20px;
+    text-align:justify;
+    border-radius: 10px;   
+    padding:10px;
+    border:1px solid aqua;  
+    color:rgb(183, 217, 247);
+}
+.article img{
+    border-radius: 10px;
+}
+img:hover{
+    transform: scale(1.04);
+    transition:.5s;
+}
+.recent{
+    width:80%;
+    border-radius: 10px;
+    border:1px solid aliceblue;
+    margin:auto;
+    margin-top:10px;
+    padding: 10px;
+    text-align: justify;
+    position: relative;
+    color: rgb(212, 232, 250);
+}
+@media only screen and (min-width:765px){
+.featured{
+    display: flex;
+    color:rgb(37, 42, 46);
+}
+.article{
+    margin:20px;
+    text-align:justify;
+    border-radius: 10px;
+     
+}
+.recent{
+    width:30%;
+    margin:10px;
+    border-radius: 10px;
+    float:left;
+    color:rgb(37, 42, 46);
+}
+}
